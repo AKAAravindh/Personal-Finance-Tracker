@@ -32,7 +32,7 @@ export default function Transactions() {
 
           <button
             onClick={() => setToggleAddTransaction(true)}
-            className="px-5 py-2 bg-green-500 text-white rounded-lg font-semibold cursor-pointer"
+            className="px-5 py-2 bg-green-500 text-white rounded-lg font-semibold cursor-pointer hidden sm:block"
           >
             + Add Transaction
           </button>
