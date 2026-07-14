@@ -8,7 +8,7 @@ function Dashboard() {
   const { pathname } = useLocation();
   const { toggleAddTransaction } = useFinance();
 
-  const showBreadcrumb = pathname !== "/dashboard";
+  const showBreadcrumb = pathname !== "/";
 
   return (
     <div className="min-h-screen bg-zinc-100 dark:bg-black p-6 dark:text-white flex flex-col">

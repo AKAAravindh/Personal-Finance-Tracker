@@ -11,7 +11,7 @@ function TransactionList() {
       <div className="flex justify-between items-center pr-5">
         <h2 className="text-xl font-bold">Recent Transactions</h2>
         <Link
-          to="/dashboard/transactions"
+          to="/transactions"
           className="text-blue-500 cursor-pointer flex items-center gap-1"
         >
           All Transactions

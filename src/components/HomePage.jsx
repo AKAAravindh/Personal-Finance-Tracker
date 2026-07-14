@@ -25,7 +25,7 @@ function HomePage() {
         </div>
       </div>
       <Link
-        to="/dashboard/transactions"
+        to="/transactions"
         className="fixed bg-green-400 right-10 bottom-10 rounded-full flex items-center justify-center p-3 cursor-pointer hover:-translate-y-0.5 transition-all duration-300"
       >
         <span>

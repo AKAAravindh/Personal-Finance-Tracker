@@ -8,12 +8,12 @@ function Breadcrumb() {
 
   return (
     <nav className="flex items-center gap-2 text-sm text-gray-500 mx-2">
-      <Link to="/dashboard" className="hover:text-black dark:hover:text-white">
+      <Link to="/" className="hover:text-black dark:hover:text-white">
         Dashboard
       </Link>
 
-      {paths.slice(1).map((path, index) => {
-        const url = "/dashboard/" + paths.slice(1, index + 2).join("/");
+      {paths.map((path, index) => {
+        const url = "/" + paths.slice(0, index + 1).join("/");
 
         return (
           <div key={url} className="flex items-center gap-2">
