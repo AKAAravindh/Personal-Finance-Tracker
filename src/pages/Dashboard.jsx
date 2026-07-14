@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Breadcrumb from "../components/Breadcrumb";
 import AddTransactionModal from "../components/AddTransactionModal";
 import { useFinance } from "../context/FinanceContext";
+import Footer from "../components/Footer";
 
 function Dashboard() {
   const { pathname } = useLocation();
@@ -25,6 +26,7 @@ function Dashboard() {
       </main>
 
       {toggleAddTransaction && <AddTransactionModal />}
+      <Footer />
     </div>
   );
 }
