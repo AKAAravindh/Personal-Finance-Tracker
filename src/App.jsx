@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import HomePage from "./components/HomePage";
 import Transactions from "./components/Transactions";
@@ -13,8 +13,6 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="transactions" element={<Transactions />} />
         </Route>
-
-        <Route path="/" element={<Navigate to="/dashboard" replace />} />
 
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
