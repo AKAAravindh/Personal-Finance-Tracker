@@ -4,7 +4,7 @@ A modern and responsive personal finance management application that helps users
 
 ## 🚀 Live Demo
 
-<a href="https://akaaravindh-personal-finance-tracker.netlify.app/dashboard" target="_blank">
+<a href="https://akaaravindh-personal-finance-tracker.netlify.app/dashboard">
   🔗 Open FinanceFlow Demo
 </a>
 
