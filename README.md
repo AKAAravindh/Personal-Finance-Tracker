@@ -4,7 +4,7 @@ A modern and responsive personal finance management application that helps users
 
 ## 🚀 Live Demo
 
-👉 **[View Live Project](https://akaaravindh-personal-finance-tracker.netlify.app/dashboard)**
+👉 **[View Live Project](https://akaaravindh-personal-finance-tracker.netlify.app/)**
 
 ---
 
