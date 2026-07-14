@@ -1,16 +1,73 @@
-# React + Vite
+# 💰 FinanceFlow - Personal Finance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal finance management application that helps users track income, expenses, budgets, and overall financial health through a clean dashboard interface.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<a href="https://akaaravindh-personal-finance-tracker.netlify.app/dashboard" target="_blank">
+  🔗 Open FinanceFlow Demo
+</a>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 About The Project
 
-## Expanding the ESLint configuration
+FinanceFlow is a personal finance tracker built to simplify money management. Users can record transactions, monitor their balance, organize expenses by category, set budgets, and gain better visibility into their financial activities.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application focuses on a clean user experience with a modern dashboard, responsive design, and intuitive controls.
+
+---
+
+## ✨ Features
+
+### 📊 Dashboard Overview
+- View current balance at a glance
+- Track total transactions
+- Monitor recent financial activity
+- Monthly budget tracking
+- Financial summary cards
+
+### 💸 Transaction Management
+- Add income and expense transactions
+- Categorize expenses
+- View transaction history
+- Search transactions
+- Filter by:
+  - All transactions
+  - Income
+  - Expenses
+
+### 💰 Budget Management
+- Set monthly spending limits
+- Track budget usage
+- Monitor overspending
+
+### 🎨 User Experience
+- Fully responsive design
+- Dark mode support
+- Modern card-based UI
+- Smooth modal interactions
+- Mobile-friendly layout
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- React Router
+- Tailwind CSS
+- React Icons
+
+### State Management
+- React Context API
+
+### Storage
+- Local Storage persistence
+
+### Deployment
+- Netlify
+
+---
+
+## 📂 Project Structure
